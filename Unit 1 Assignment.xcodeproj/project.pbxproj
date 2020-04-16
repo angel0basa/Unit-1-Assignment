@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,6 @@
 				694001962FF30BCC2FF3757D /* Pods-Unit 1 AssignmentTests.debug.xcconfig */,
 				C1E268787026597C6116A5A7 /* Pods-Unit 1 AssignmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -587,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23F139C86DC59C594EFFFDF6 /* Pods-Unit 1 Assignment.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Unit 1 Assignment/Info.plist";
@@ -605,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E60F9F78D734649A2F13E49 /* Pods-Unit 1 Assignment.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Unit 1 Assignment/Info.plist";
